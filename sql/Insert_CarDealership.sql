@@ -70,16 +70,16 @@ INSERT INTO Car VALUES
 
 
 INSERT INTO Customer VALUES
-    (1000, 'John', 'Doe', 'john.doe@example.com', '1234567890'),
-    (1001, 'Jane', 'Smith', 'jane.smith@example.com', '2345678901'),
-    (1002, 'Alice', 'Johnson', 'alice.johnson@example.com', '3456789012'),
-    (1003, 'Bob', 'Brown', 'bob.brown@example.com', '4567890123'),
-    (1004, 'Carol', 'Davis', 'carol.davis@example.com', '5678901234'),
-    (1005, 'David', 'Martinez', 'david.martinez@example.com', '6789012345'),
-    (1006, 'Eve', 'Garcia', 'eve.garcia@example.com', '7890123456'),
-    (1007, 'Frank', 'Rodriguez', 'frank.rodriguez@example.com', '8901234567'),
-    (1008, 'Grace', 'Wilson', 'grace.wilson@example.com', '9012345678'),
-    (1009, 'Harry', 'Lee', 'harry.lee@example.com', '0123456789');
+    (1000, 'John', 'Doe', 0,'john.doe@example.com', '1234567890'),
+    (1001, 'Jane', 'Smith', 0, 'jane.smith@example.com', '2345678901'),
+    (1002, 'Alice', 'Johnson', 0, 'alice.johnson@example.com', '3456789012'),
+    (1003, 'Bob', 'Brown', 0, 'bob.brown@example.com', '4567890123'),
+    (1004, 'Carol', 'Davis', 0, 'carol.davis@example.com', '5678901234'),
+    (1005, 'David', 'Martinez', 0, 'david.martinez@example.com', '6789012345'),
+    (1006, 'Eve', 'Garcia', 0, 'eve.garcia@example.com', '7890123456'),
+    (1007, 'Frank', 'Rodriguez', 0, 'frank.rodriguez@example.com', '8901234567'),
+    (1008, 'Grace', 'Wilson', 0, 'grace.wilson@example.com', '9012345678'),
+    (1009, 'Harry', 'Lee', 0, 'harry.lee@example.com', '0123456789');
 
 INSERT INTO CustomerCar VALUES
     (2001, 1, 1000, '2023-01-01', 25000),
